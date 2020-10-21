@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutB"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_weight="0"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        android:layout_weight="0"
+        android:text="Hey my name is Beryl, from team pie, I would like to develop android apps so that I can create solutions using apps. I love caring for animals and eating.I  learnt java because it was part of the school course,then I discovered it can used to create android apps.I hope the end of droidcamp I will be able to build complete android app using kotlin"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="normal"
+        android:padding="4dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0"
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif-black"
+        android:padding="8dp"
+        android:text="Next page"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+
+        android:textStyle="normal" />
+
+</LinearLayout>

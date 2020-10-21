@@ -11,11 +11,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         droidcamp_button.setOnClickListener {
             showToast("Droidcamp button clicked")
             //Todo: Replace "SomeActivity::class with your activity name then remove the comment
-//            val intent = Intent(this, SomeActivity::class.java)
-//            startActivity(intent)
+           val intent = Intent(this, AboutB::class.java)
+           startActivity(intent)
         }
     }
 
